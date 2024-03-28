@@ -22,3 +22,12 @@ const getWorthyWorkers = (arr) => {
   }
   
   console.log(getWorthyWorkers(workers));
+
+  //task3
+
+const path = "/users/download/index.html";
+const isHtml = (path) => {
+  return path.slice(-5) === '.html';
+}
+
+console.log(isHtml(path))
