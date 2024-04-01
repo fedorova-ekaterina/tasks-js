@@ -1,0 +1,40 @@
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+}
+
+.slider {
+    display: flex;
+    width: 300px;
+    overflow: hidden;
+    margin: 0 10px;
+}
+
+.elems {
+    display: flex;
+    position: relative;
+    font-size: 30px;
+    right: 0;
+    transition: right .3s;
+}
+
+.elem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid grey;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+}
